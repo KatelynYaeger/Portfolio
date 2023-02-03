@@ -18,6 +18,14 @@
       text-align: left; 
       font-family: fantasy;
       color: steelblue;
+      width: 100px;
+      height: 150px;
+      border: 15px solid rgb(97, 126, 158);
+      border-radius: 12px;
+      padding: 50px;
+      margin: 20px;
+      display: inline-table;
+      float: center;
 }
 
 
@@ -46,6 +54,7 @@ img {
       width: 300px;
       height: 150px;
       border: 15px solid rgb(60, 157, 205);
+      border-radius: 12px;
       padding: 50px;
       margin: 20px;
       display: inline-table;
@@ -55,7 +64,8 @@ img {
     .div2 {
       width: 300px;
       height: 150px;
-      border: 15px solid rgb(60, 157, 205);
+      border: 15px solid white;
+      border-radius: 12px;
       padding: 50px;
       margin: 20px;
       display: inline-table;
