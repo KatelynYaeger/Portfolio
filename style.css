@@ -1,49 +1,64 @@
 * {
+      background-color: rgb(8, 8, 32);
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      font-size: large;
+}
+
+#p1 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
     background-color: rgb(8, 8, 32);
-    background-image:
-    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 10px),
-    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 5px),
-    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 10px),
-    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
-    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
-    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: large;
-
-  
-       /* width: 100%;
-        height: 100vh;
-        background: linear-gradient(
-          to top,
-          rgb(8,8,32) 100%,
-          pink 0%,
-        ); - to have upper third of page be the starry night*/
-
-
-
-
-
 }
 
-p {
-    color: white;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.contact{
+      text-align: left; 
+      font-family: fantasy;
+      color: steelblue;
 }
+
 
 img {
       display: block;
       margin-left: auto;
       margin-right: auto;
-}
-
-img {
       border-radius: 50%;
+      height: 50%;
+      width: 50%;
 }
 
-img {
-       height: 50%;
-       width: 50%;
+.heading{
+      background-color: rgb(8, 8, 32);
+      background-image:
+      radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 10px),
+      radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 5px),
+      radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 10px),
+      radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
+      background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+      background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+      text-align: center;
 }
+
+.div1 {
+      width: 300px;
+      height: 150px;
+      border: 15px solid rgb(60, 157, 205);
+      padding: 50px;
+      margin: 20px;
+      display: inline-table;
+      float: left;
+    }
+
+    .div2 {
+      width: 300px;
+      height: 150px;
+      border: 15px solid rgb(60, 157, 205);
+      padding: 50px;
+      margin: 20px;
+      display: inline-table;
+      float: right;
+    }
+
