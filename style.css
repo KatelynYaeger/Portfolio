@@ -1,7 +1,7 @@
 * {
       background-color: rgb(8, 8, 32);
       text-align: center;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: fantasy;
       color: white;
       font-size: large;
 }
@@ -14,7 +14,7 @@
 }
 
 
-.contact{
+/* .contact{
       text-align: left; 
       font-family: fantasy;
       color: steelblue;
@@ -26,10 +26,10 @@
       margin: 20px;
       display: inline-table;
       float: center;
-}
+} */
 
 
-img {
+.center {
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -48,9 +48,10 @@ img {
       background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
       background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
       text-align: center;
+      margin: 0px auto;
 }
 
-.div1 {
+/* .div1 {
       width: 300px;
       height: 150px;
       border: 15px solid rgb(60, 157, 205);
@@ -70,103 +71,52 @@ img {
       margin: 20px;
       display: inline-table;
       float: right;
-    }
+    } */
 
-
-    li {
-      float: left;
-    }
     
-    a {
-      display: block;
-      padding: 8px;
-      background-color: rgb(8, 8, 32);
-      color: white;
+     a {
+      color: rgb(115, 179, 211);
+    } 
+
+.column {
+  float: left;
+  padding: 50px; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+    .Home{
+        float: left;
+        list-style-type: none;
+        display: inline-block;
+        margin: 0%;
+        padding: 0;
+        
     }
 
-   /* * {box-sizing:border-box}
+    .Contact{
+        float: center;
+        list-style-type: none;
+        display: inline-block;
+        margin: 0%;
+        padding: 0;
+  }
 
+  .Education{
+        float: right;
+        list-style-type: none;
+        display: inline-block;
+        margin: 0%;
+        padding: 0;
+        color: rgb(60, 157, 205);
+}
 
-    .slideshow-container {
-      max-width: 100px;
-      position: relative;
-      margin: auto;
-    }
-    
-
-    .mySlides {
-      display: none;
-    }
-    
-
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      margin-top: -22px;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-    }
-    
-
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    
-
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
-    
-
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
-    
-
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-    
-
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-    
-    .active, .dot:hover {
-      background-color: #717171;
-    }
-
-    .fade {
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-    
-    @keyframes fade {
-      from {opacity: .4} 
-      to {opacity: 1}
-    }*/
+.projectspara{
+  font-family: fantasy;
+  font-weight: bold;
+  color:rgb(26, 168, 193);
+}
